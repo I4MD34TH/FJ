@@ -6,10 +6,10 @@ const IndexPage = () => (
   <div className={'main'}>
     <section className={'intro'} style={{'background-image':'url(../images/background.png)', 'background-size':'cover', 'background-position':'bottom', }}>
       <div className={'intro-content container-fluid'}>
-        <img className={'arslan-img'} src={'../images/arslan.png'} />
+        <img className={'farhan-img'} src={'../images/farhan.png'} />
         <div className={'intro-frame'}>
           <h1 className={'text-right'}>Pakistan's Leading <br /> Real Estate <br /> Investment <br /> Advisor</h1>
-          <a className={'text-right'}><strong>L</strong>earn-<strong>M</strong>ore</a>
+          <a className={'text-right'} style={{'color':'#6BD7E9', }}><strong>L</strong>earn-<strong>M</strong>ore</a>
           <img src={'../images/frame.png'} />
         </div>
         {/*<Link to="/page-2/">Go to page 2</Link>*/}
@@ -36,17 +36,17 @@ const IndexPage = () => (
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-2.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-2.png'} />
               <h4><strong>OVERSEAS PAKISTANIS RETURN</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-3.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-3.png'} />
               <h4><strong>GAMECHANGER IN REALESTATE</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-4.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-4.png'} />
               <h4><strong>AMAZON MALL</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
@@ -57,17 +57,17 @@ const IndexPage = () => (
     <section id={'contact'} className={'contact'}>
       <Grid>
         <div className={'contact-heading'}>
-          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#EF5350', }}>Investment Advisor</span></strong></h2>
-          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for a<br /> First-Class<br /> Real Estate <span style={{'color':'#EF5350', }}>Investment Advisor</span></strong></h2>
+          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#6BD7E9', }}>Investment Advisor</span></strong></h2>
+          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for a<br /> First-Class<br /> Real Estate <span style={{'color':'#6BD7E9', }}>Investment Advisor</span></strong></h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet.</p>
           <button className={'contact-btn'}><strong>Contact Now</strong></button>
         </div>
-        <img src={'images/arslan-2.png'} />
+        <img src={'images/farhan-2.png'} />
       </Grid>
     </section>
     <section id={'quotes'} className={'text-center quotes'}>
       <Grid>
-        <img src={'../images/quote-logo.png'} style={{'width':'50px', 'margin-top':'90px', 'margin-bottom':'70px', }} />
+        <img src={'../images/quotes-logo.png'} style={{'width':'50px', 'margin-top':'90px', 'margin-bottom':'70px', }} />
         <div style={{'margin-top':'20px', 'margin-bottom':'150px',}}>
           <Carousel interval={3500}>
             <Carousel.Item>
@@ -77,7 +77,7 @@ const IndexPage = () => (
               <blockquote className={"twitter-tweet"}><p lang={"en"} dir={"ltr"}><i>Have more then you show. Speak less then you know.</i></p></blockquote>
             </Carousel.Item>
           </Carousel>
-          <p style={{'color':'#103166', 'margin-top':'30px', }}><strong>&mdash; Arslan Javed <a href={"https://twitter.com/Arslanjvd"} target={'_blank'}>&#40;&#64;Arslanjvd&#41;</a> &mdash;</strong></p>
+          <p style={{'color':'#103166', 'margin-top':'30px', }}><strong>&mdash; Farhan Javed <a href={"https://twitter.com/farhanjaved"} target={'_blank'}>&#40;&#64;farhanjaved&#41;</a> &mdash;</strong></p>
         </div>
         <script async src={"//platform.twitter.com/widgets.js"} charset={"utf-8"}></script>
       </Grid>

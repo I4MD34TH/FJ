@@ -16,10 +16,10 @@ const Header = () => (
         <Navbar.Toggle />
       </Navbar.Header>
       <Nav pullRight className={'social-nav'}>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/fb-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/gmail-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/twitter-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/instagram-icon.png'} /></NavItem>
+        <NavItem eventKey={2} href={"#"}><img src={'../images/fb-header.png'} /></NavItem>
+        <NavItem eventKey={2} href={"#"}><img src={'../images/google-header.png'} /></NavItem>
+        <NavItem eventKey={2} href={"#"}><img src={'../images/twitter-header.png'} /></NavItem>
+        <NavItem eventKey={2} href={"#"}><img src={'../images/instagram-header.png'} /></NavItem>
       </Nav>
       <Navbar.Collapse>
         <Nav className={'main-nav'} pullRight style={{'margin-top':'5px', 'color': '#fff',}}>
@@ -33,7 +33,7 @@ const Header = () => (
 )
 
 const Footer = () => (
-  <section className={'footer'} style={{'background-color':'#343434', }}>
+  <section className={'footer'} style={{'background-color':'#113030', }}>
       <div className={'text-center news-letter'} style={{'color':'white', }}>
         <h1><strong>GET UPDATE VIA NEWSLETTER</strong></h1>
         <h3>Sign up to be the first to hear</h3>
@@ -56,9 +56,9 @@ const Footer = () => (
             <footer style={{'color':'#c4c4c4', }}>Copyright &copy; Agency21Pvt Ltd. All rights reserved.</footer>
           </div>
           <div className={'social'}>
-              <a href={'https://www.facebook.com/arslan.javed/'} target={'_blank'}><img src={'../images/fb-icon.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
-              <a href={'https://twitter.com/Arslanjvd'} target={'_blank'}><img src={'../images/twitter-icon.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
-              <a href={'https://www.instagram.com/arslanjaved/'} target={'_blank'}><img src={'../images/instagram.png'} style={{'height':'20px',}} /></a>
+              <a href={'https://www.facebook.com/farhan169'} target={'_blank'}><img src={'../images/fb-footer.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
+              <a href={'https://twitter.com/farhanjaved'} target={'_blank'}><img src={'../images/twitter-footer.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
+              <a href={'https://www.instagram.com/farhanjaved/'} target={'_blank'}><img src={'../images/instagram-footer.png'} style={{'height':'20px',}} /></a>
           </div>
       </Grid>
   </section>

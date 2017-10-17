@@ -12,7 +12,7 @@ html, body {
     color: #fff !important;
 }
 .navbar-nav > li > a:hover {
-    color: #EF5350 !important;
+    color: #6BD7E9 !important;
     transition: 0.4s ease !important;
 }
 .navitem {
@@ -68,7 +68,7 @@ html, body {
     padding-bottom: 90px;
 }
 .contact {
-    background-color: #303030;
+    background-color: #123030;
 }
 .contact-heading {
     width: 500px;
@@ -86,11 +86,11 @@ html, body {
     border: none;
     padding: 10px 30px 10px 30px;
     margin-top: 10px;
-    color: #232323;
+    color: #092121;
 }
 .contact-btn:hover {
-    color: white;
-    background-color: #EF5350;
+    color: #6BD7E9;
+    background-color: #0b2121;
     transition: 0.3s ease;
 }
 .carousel-indicators {
@@ -125,11 +125,12 @@ html, body {
 .subscription-btn {
     border: none;
     padding: 15px 30px 15px 30px;
-    background-color: #EF5350;
+    background-color: #6BD7E9;
+    color: #092121;
 }
 .subscription-btn:hover {
-    background-color: white;
-    color: #EF5350;
+    background-color: #092121;
+    color: #6BD7E9;
     transition: 0.3s ease;
 }
 .copy-right img {
@@ -183,7 +184,7 @@ button.navbar-toggle:hover {
 .intro-frame {
     position: absolute;
     color: white;
-    left: 30vw;
+    right: 20vw;
     bottom: 20vh;
 }
 .intro-frame h1 {
@@ -202,11 +203,11 @@ button.navbar-toggle:hover {
 .intro-frame img {
     width: 250px;
 }
-.arslan-img {
+.farhan-img {
     position: absolute;
     width: 30vw;
     bottom: 0px;
-    right: 0px;
+    left: 0px;
 }
 .ch-2 {
     display: none;
@@ -219,13 +220,13 @@ button.navbar-toggle:hover {
         margin-top: 150px;
     }
     .intro-frame {
-        left: 30vw;
+        right: 20vw;
         bottom: 15vh;
     }
-    .arslan-img {
+    .farhan-img {
         position: absolute;
         bottom: 0px;
-        right: 0px;
+        left: 0px;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -273,7 +274,7 @@ button.navbar-toggle:hover {
         margin-right: auto;
     }
     .intro-frame {
-        left: 37vw;
+        right: 15vw;
     }
 }
 @media only screen and (max-width: 950px) {
@@ -326,7 +327,7 @@ button.navbar-toggle:hover {
     }
     .intro-frame {
         bottom: 35vh;
-        left: 45vw;
+        right: 10vw;
     }
     .intro-frame h1 {
         position: absolute;
@@ -344,7 +345,7 @@ button.navbar-toggle:hover {
     .intro-frame img {
         width: 190px;
     }
-    .arslan-img {
+    .farhan-img {
         width: 37vw;
         display: none;
     }
@@ -426,7 +427,7 @@ button.navbar-toggle:hover {
 @media only screen and (max-width: 414px) {
     .intro-frame {
         bottom: 35vh;
-        left: 47vw;
+        right: 7vw;
     }
     .intro-frame h1 {
         font-size: 24px;
@@ -443,7 +444,7 @@ button.navbar-toggle:hover {
 }
 @media only screen and (max-width: 373px) {
     .intro-frame {
-        left: 53vw;
+        right: 5vw;
     }
     .intro-frame h1 {
         position: absolute;
