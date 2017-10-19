@@ -16,8 +16,8 @@ html, body {
     transition: 0.4s ease !important;
 }
 .navitem {
-  color:white;
-  font-size: 25px;
+    color:white;
+    font-size: 25px;
 }
 .main {
     padding-left: 0px;
@@ -185,7 +185,7 @@ button.navbar-toggle:hover {
     position: absolute;
     color: white;
     right: 20vw;
-    bottom: 20vh;
+    bottom: 25vh;
 }
 .intro-frame h1 {
     position: absolute;
@@ -205,7 +205,7 @@ button.navbar-toggle:hover {
 }
 .farhan-img {
     position: absolute;
-    width: 30vw;
+    width: 35vw;
     bottom: 0px;
     left: 0px;
 }
